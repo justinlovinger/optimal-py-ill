@@ -8,8 +8,8 @@ let
   learning = import (pkgs.fetchFromGitHub {
     owner = "JustinLovinger";
     repo = "learning";
-    rev = "4a40e39989f5234affeddd3ef7d5fd6a59784041";
-    sha256 = "1yh7y09k6q8c54r4gz31dccbc5vizl1na7fvpah043kzfj8klf5a";
+    rev = "40592b5389a104ca894330526c697c52a42ebd43";
+    sha256 = "0bzrvcw99669hpgfybl2m16c0hvl64p5v6jirprlfh1vv06g455n";
   }) { inherit pkgs; };
 in pkgs.python2Packages.buildPythonPackage {
   pname = "ill";
